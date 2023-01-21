@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="E2E Test Suite" duration-ms="22558" started-at="2023-01-07T14:43:10 UTC" finished-at="2023-01-07T14:43:33 UTC">
+    <groups>
+    </groups>
+    <test name="E2E Tests" duration-ms="22558" started-at="2023-01-07T14:43:10 UTC" finished-at="2023-01-07T14:43:33 UTC">
+      <class name="testcases.SearchTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.SearchTests@15d0c81b]" name="setUp" is-config="true" duration-ms="8690" started-at="2023-01-07T14:43:10 UTC" finished-at="2023-01-07T14:43:19 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchCourses()[pri:0, instance:testcases.SearchTests@15d0c81b]" name="testSearchCourses" duration-ms="10585" started-at="2023-01-07T14:43:19 UTC" finished-at="2023-01-07T14:43:30 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchCourses -->
+        <test-method status="PASS" signature="cleanUpActivities()[pri:0, instance:testcases.SearchTests@15d0c81b]" name="cleanUpActivities" is-config="true" duration-ms="121" started-at="2023-01-07T14:43:30 UTC" finished-at="2023-01-07T14:43:30 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+      </class> <!-- testcases.SearchTests -->
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.LoginTest@6acdbdf5]" name="setUp" is-config="true" duration-ms="7668" started-at="2023-01-07T14:43:10 UTC" finished-at="2023-01-07T14:43:18 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testcases.LoginTest@6acdbdf5]" name="testLogin" duration-ms="14743" started-at="2023-01-07T14:43:18 UTC" finished-at="2023-01-07T14:43:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="cleanUpActivities()[pri:0, instance:testcases.LoginTest@6acdbdf5]" name="cleanUpActivities" is-config="true" duration-ms="117" started-at="2023-01-07T14:43:33 UTC" finished-at="2023-01-07T14:43:33 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpActivities -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- E2E Tests -->
+  </suite> <!-- E2E Test Suite -->
+</testng-results>
